@@ -31,4 +31,4 @@ when the two "simulate_run_\*.m" finished, we can execute the two "readname_\*.m
 
 ## example folder
 we provide the triangle plot and violinplot codes, which can be run with python 3.8.
-all the data("den.mat" or "fre.mat") come from the result produced from "readname_\*.m"file
+all the data("den.mat" or "fre.mat") come from the result generate from "readname_\*.m"file
