@@ -31,11 +31,10 @@ in the maintext, we run 1000 replicates for each interaction proportion sets, to
 
 
 "simulation_run_fre.m" -- fd-transmssion mode
+run this two "simulate_run_\*.m" file with matlab, and start our simulation.
 
-we can ran this two "simulate_run_\*m" file with matlab, to begain our simulation.
 
-
-through those "simulate_run_\*m"file, all results of replicates were saved as "\*.mat" file with specific name in folders named "result_\*".
+through those "simulate_run_\*.m"file, all results of replicates were saved as "\*.mat" file with specific name in folders named "result_\*".
 
 ## the readname_\*.m
 when the two "simulate_run_\*.m" finished, we can execute the two "readname_\*.m" in matlab to settle all results in folders named "result_\*", and gain "den.mat" and "fre.mat", which contain all the variables to create figures.
@@ -43,6 +42,5 @@ when the two "simulate_run_\*.m" finished, we can execute the two "readname_\*.m
 
 ## example folder
 we provide the triangle plot and violinplot codes, which can be run with python 3.8.
-
 
 all the data("den.mat" or "fre.mat") come from the result generate from "readname_\*.m"file
