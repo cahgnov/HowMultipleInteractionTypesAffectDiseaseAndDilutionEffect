@@ -2,6 +2,7 @@
 %proportions
 clc;
 clear;
+system("mkdir result_fre")
 P_C=(0.1:0.1:1);
 
 for count_C=1:length(P_C)
