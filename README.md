@@ -27,7 +27,8 @@ through those "simulate_run_\*m"file, all results of replicates were saved as "\
 
 ## the readname_\*.m
 when the two "simulate_run_\*.m" finished, we can execute the two "readname_\*.m" in matlab to settle all results in folders named "result_\*", and gain "den.mat" and "fre.mat", which contain all the variables to create figures.
-Beacuse the folders contain too many files,which is too hard to upload, so we provide the "den.mat" and "fre.mat" of the resilt of our maintext.
+
 
 ## example folder
 we provide the triangle plot and violinplot codes, which can be run with python 3.8.
+all the data("den.mat" or "fre.mat") come from the result produced from "readname_\*.m"file
