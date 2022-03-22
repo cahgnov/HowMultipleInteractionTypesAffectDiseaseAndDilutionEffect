@@ -36,8 +36,8 @@ run this two "simulate_run_\*.m" file with matlab, and start our simulation.
 
 through those "simulate_run_\*.m"file, all results of replicates were saved as "\*.mat" file with specific name in folders named "result_\*".
 
-## the readname_\*.m
-when the two "simulate_run_\*.m" finished, we can execute the two "readname_\*.m" in matlab to settle all results in folders named "result_\*", and gain "den.mat" and "fre.mat", which contain all the variables to create figures.
+## the readdata_\*.m
+when the two "simulate_run_\*.m" finished, we can execute the two "readdata_\*.m" in matlab to settle all results in folders named "result_\*", and gain "den.mat" and "fre.mat", which contain all the variables to create figures.
 
 
 ## example folder
